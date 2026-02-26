@@ -10,6 +10,7 @@ yarn-error.log
 dist/
 .cache/
 coverage/
+package-lock.json
 
 # npm
 # Add npm-specific ignores here
