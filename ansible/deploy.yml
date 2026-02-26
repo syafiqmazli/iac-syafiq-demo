@@ -1,0 +1,15 @@
+- hosts: app
+  become: yes
+  roles:
+    - docker
+
+  tasks:
+    - name: Copy project files
+      copy:
+        src: ../
+        dest: /opt/jokes-app/
+
+    - name: Run docker compose
+      command: docker compose up -d --build
+      args:
+        chdir: /opt/jokes-app/
