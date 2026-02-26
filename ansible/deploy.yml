@@ -6,7 +6,7 @@
   tasks:
     - name: Copy project files
       copy:
-        src: ../
+        src: ../jokes-app/app/*
         dest: /opt/jokes-app/
 
     - name: Run docker compose
