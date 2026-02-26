@@ -1,7 +1,7 @@
 {
   "name": "jokes-app",
   "version": "1.0.0",
-  "description": "Jokes Generator from Chuck Norris",
+  "description": "Just jokes from Chuck Norris",
   "main": "server.js",
   "dependencies": {
     "express": "^4.18.2",
